@@ -1,0 +1,36 @@
+function ps2pdf($ps) {
+function generateIDPDF($entries) {
+function generateBarcodePDF($entries) {
+function generateIDPostScript($entries) {
+function generateBarcodePostScript($entries) {
+function generateCutEdgeProcedure($startX, $startY, $sizeX, $sizeY, $length, $width) {
+function generateIDProcedure($entries) {
+function generateBarcodeProcedure($entries) {
+function addBuilder($builderId, $teamId, $title, $name) {
+function getAllBuilders() {
+function getBuilder($builderId) {
+function getCommand($barcode) {
+function getAllCommands() {
+function addCommand($command, $description) {
+function getCommandDescription($command) {
+function getAllCurrentToolLoans() {
+function getCurrentToolLoans($toolId) {
+function getToolLoans($toolId) {
+function borrowTool($toolId, $builderId) {
+function returnTool($toolId, $builderId) {
+function getCurrentTeamLoans($teamId) {
+function mysqlFetchAll($sql) {
+function mysqlFetchOne($sql) {
+function numberPad($number,$n) {
+function printTable($data, $headers, $numbering, $sortLinks = false, $action = "") {
+function getAllTeams() {
+function addTeam($teamName, $description, $toolLimit) {
+function getTeam($teamId) {
+function updateToolLimit($teamId, $toolLimit) {
+function getBuilderTeam($builderId) {
+function getAllTools() {
+function getCommonTools() {
+function getTool($toolId) {
+function addTool($name, $stock) {
+function updateToolStock($toolId, $stock) {
+function validateUser($barcode) {

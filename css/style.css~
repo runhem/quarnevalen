@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+td {
+    font-size: 10px;
+}
+
+A {
+    color: #0000CC;
+    text-decoration: none
+}
+
+A:hover {
+    color: #3333FF;
+    text-decoration: underline
+}
+
+body {
+    color: #333333;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 10px;
+    background: #FFFFFF;
+}
+
+h1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:  24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+h2 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:  18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+h3 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:  16px;
+    color: #000000;
+}
+
+div {
+    border: 1px solid black;
+    margin: 8px;
+    padding: 10px;
+    color: #000000;
+}
+
+div.using {
+    background: #86c4f8;
+}
+
+div.generic {
+    background: #378be0;
+}
+
+div.return {
+    background: #b4f886;
+}
+
+div.returnSelected {
+  background: #71d231;
+	border: 6px dashed #367909;		
+}
+
+div.borrow {
+    background: #f88e86;
+}
+
+div.borrowSelected {
+  background: #e04337;
+	border: 6px dashed #820c03;
+}
+
+div.abort {
+    background: #888888;
+}
+
+
